@@ -116,10 +116,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Dev\Aruco3112\include\aruco;C:\Dev\OpenCV-4.5.2\Debug\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Dev\Aruco3112\lib;C:\Dev\OpenCV-4.5.2\Debug\x64\vc16\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_calib3d452d.lib;opencv_core452d.lib;opencv_dnn452d.lib;opencv_features2d452d.lib;opencv_flann452d.lib;opencv_gapi452d.lib;opencv_highgui452d.lib;opencv_imgcodecs452d.lib;opencv_imgproc452d.lib;opencv_ml452d.lib;opencv_objdetect452d.lib;opencv_photo452d.lib;opencv_stitching452d.lib;opencv_video452d.lib;opencv_videoio452d.lib;aruco3112.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
