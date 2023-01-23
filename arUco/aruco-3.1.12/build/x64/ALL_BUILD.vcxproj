@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BAA083B-8FB0-3577-B12A-8EB1689EA3AF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64;E:\cours\VSION\TP5\arUco\aruco-3.1.12;C:\Dev\OpenCV\include;E:\cours\VSION\TP5\arUco\aruco-3.1.12\3rdparty\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64;E:\cours\VSION\TP5\arUco\aruco-3.1.12;C:\Dev\OpenCV\include;E:\cours\VSION\TP5\arUco\aruco-3.1.12\3rdparty\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64;E:\cours\VSION\TP5\arUco\aruco-3.1.12;C:\Dev\OpenCV\include;E:\cours\VSION\TP5\arUco\aruco-3.1.12\3rdparty\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64;E:\cours\VSION\TP5\arUco\aruco-3.1.12;C:\Dev\OpenCV\include;E:\cours\VSION\TP5\arUco\aruco-3.1.12\3rdparty\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Appli\CMake\bin\cmake.exe -SE:/cours/VSION/TP5/arUco/aruco-3.1.12 -BE:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64 --check-stamp-file E:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Appli\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindGLUT.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;C:\Dev\OpenCV\OpenCVConfig-version.cmake;C:\Dev\OpenCV\OpenCVConfig.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVModules.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeCXXCompiler.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeRCCompiler.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeSystem.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\aruco-uninstalled.pc.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\aruco.pc.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\cmake_uninstall.cmake.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\compilerOptions.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\config.cmake.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\findDependencies.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\installOptions.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\options.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\printInfo.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Appli\CMake\bin\cmake.exe -SE:/cours/VSION/TP5/arUco/aruco-3.1.12 -BE:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64 --check-stamp-file E:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Appli\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindGLUT.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;C:\Dev\OpenCV\OpenCVConfig-version.cmake;C:\Dev\OpenCV\OpenCVConfig.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVModules.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeCXXCompiler.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeRCCompiler.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeSystem.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\aruco-uninstalled.pc.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\aruco.pc.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\cmake_uninstall.cmake.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\compilerOptions.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\config.cmake.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\findDependencies.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\installOptions.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\options.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\printInfo.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Appli\CMake\bin\cmake.exe -SE:/cours/VSION/TP5/arUco/aruco-3.1.12 -BE:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64 --check-stamp-file E:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Appli\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindGLUT.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;C:\Dev\OpenCV\OpenCVConfig-version.cmake;C:\Dev\OpenCV\OpenCVConfig.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVModules.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeCXXCompiler.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeRCCompiler.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeSystem.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\aruco-uninstalled.pc.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\aruco.pc.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\cmake_uninstall.cmake.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\compilerOptions.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\config.cmake.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\findDependencies.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\installOptions.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\options.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\printInfo.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Appli\CMake\bin\cmake.exe -SE:/cours/VSION/TP5/arUco/aruco-3.1.12 -BE:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64 --check-stamp-file E:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Appli\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindGLUT.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Appli\CMake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;C:\Dev\OpenCV\OpenCVConfig-version.cmake;C:\Dev\OpenCV\OpenCVConfig.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Dev\OpenCV\x64\vc16\lib\OpenCVModules.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeCXXCompiler.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeRCCompiler.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\3.20.3\CMakeSystem.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\aruco-uninstalled.pc.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\aruco.pc.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\cmake_uninstall.cmake.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\compilerOptions.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\config.cmake.in;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\findDependencies.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\installOptions.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\options.cmake;E:\cours\VSION\TP5\arUco\aruco-3.1.12\cmake\printInfo.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\ZERO_CHECK.vcxproj">
+      <Project>{00908C2F-C0B2-3B2B-9672-745BA05D8BFB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\src\aruco.vcxproj">
+      <Project>{FE8AC37A-0E83-3574-BB09-5B04C36BCD0C}</Project>
+      <Name>aruco</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils\aruco_batch_processing.vcxproj">
+      <Project>{C55AD5A9-868D-3E65-BDDF-72D26D09CB7E}</Project>
+      <Name>aruco_batch_processing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_calibration\aruco_calibration.vcxproj">
+      <Project>{C0A4C1BE-11C7-38DC-9022-6FB61C890E5E}</Project>
+      <Name>aruco_calibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_calibration\aruco_calibration_fromimages.vcxproj">
+      <Project>{C0E73406-1277-339E-8C01-5C1CD47617A6}</Project>
+      <Name>aruco_calibration_fromimages</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_markermap\aruco_create_markermap.vcxproj">
+      <Project>{B0A33D88-B46A-37C5-BA82-E63AD904EC9B}</Project>
+      <Name>aruco_create_markermap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_dcf\aruco_dcf.vcxproj">
+      <Project>{5419DEA0-BC08-3357-8310-E7E699589234}</Project>
+      <Name>aruco_dcf</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_dcf\aruco_dcf_mm.vcxproj">
+      <Project>{0014B8B9-0771-3861-BC20-3B0E148AA7A3}</Project>
+      <Name>aruco_dcf_mm</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_markermap\aruco_markermap_pix2meters.vcxproj">
+      <Project>{CF738ADE-675B-3E27-B245-B928F255E22F}</Project>
+      <Name>aruco_markermap_pix2meters</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils\aruco_print_dictionary.vcxproj">
+      <Project>{05A298EA-37AE-3E01-88AD-85F92F844E11}</Project>
+      <Name>aruco_print_dictionary</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils\aruco_print_marker.vcxproj">
+      <Project>{7E963FDA-2BE5-37E6-8270-CCBB701241AD}</Project>
+      <Name>aruco_print_marker</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils\aruco_simple.vcxproj">
+      <Project>{CD7FBBE9-26C0-3874-B9BF-F04A8B573CEB}</Project>
+      <Name>aruco_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_markermap\aruco_simple_markermap.vcxproj">
+      <Project>{436E5B1B-0FF8-3619-AE10-FB6F4AAE3DD5}</Project>
+      <Name>aruco_simple_markermap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils\aruco_test.vcxproj">
+      <Project>{420180C9-D0BD-3C25-AADD-44D8EE86D88A}</Project>
+      <Name>aruco_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_markermap\aruco_test_markermap.vcxproj">
+      <Project>{D2A8A51B-D1DD-3404-8478-C2A0DB4CD8E8}</Project>
+      <Name>aruco_test_markermap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils\aruco_tracker.vcxproj">
+      <Project>{E6C1E454-32E9-3004-8CD8-1F4874A0AF22}</Project>
+      <Name>aruco_tracker</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_fractal\fractal_create.vcxproj">
+      <Project>{5C0F20AB-7D61-3CD8-80C2-0C41E99C23A8}</Project>
+      <Name>fractal_create</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_fractal\fractal_pix2meters.vcxproj">
+      <Project>{C24CFABA-CA38-3D22-BE35-1F6F70ADD246}</Project>
+      <Name>fractal_pix2meters</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_fractal\fractal_print_marker.vcxproj">
+      <Project>{E3172886-4C19-334E-96F5-52A176C70048}</Project>
+      <Name>fractal_print_marker</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\utils_fractal\fractal_tracker.vcxproj">
+      <Project>{AFA67AF3-7BDF-392F-BEE8-BE860DF5E03A}</Project>
+      <Name>fractal_tracker</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

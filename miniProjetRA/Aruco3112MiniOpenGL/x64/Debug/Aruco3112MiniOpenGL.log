@@ -1,0 +1,26 @@
+﻿  ArUco-OpenGL.cpp
+C:\Dev\Aruco3112\include\aruco\fractallabelers\fractalmarker.h(38,1): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(67,8): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(67,17): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(67,27): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(68,9): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(68,20): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(68,30): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(69,10): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(69,20): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(69,30): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(70,15): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(106,9): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(106,19): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(106,30): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(107,9): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(107,20): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(107,31): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(108,10): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(108,21): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(108,32): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(109,10): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(109,20): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(109,31): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+E:\cours\VSION\TP5\miniProjetRA\Aruco3112MiniOpenGL\ArUco-OpenGL.cpp(110,15): warning C4838: la conversion de 'GLdouble' en 'GLfloat' requiert une conversion restrictive
+  Aruco3112MiniOpenGL.vcxproj -> E:\cours\VSION\TP5\miniProjetRA\x64\Debug\Aruco3112MiniOpenGL.exe

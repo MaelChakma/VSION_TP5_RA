@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\CMakeFiles\7cc5956ee0ac9bd675abbeb64ff03041\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{94DBD23A-753B-3083-9AFC-9330C6C0E4E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

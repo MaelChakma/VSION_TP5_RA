@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/utils_dcf/CMakeLists.txt
+  aruco_dcf.cpp
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers\fractalmarker.h(38,1): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers/fractallabeler.h(41,76): warning C4244: 'return' : conversion de 'double' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_dcf\aruco_dcf.cpp(74,24): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_dcf\aruco_dcf.cpp(50,40): warning C4101: 'e' : variable locale non référencée
+  aruco_dcf.vcxproj -> E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\bin\Debug\aruco_dcf.exe
