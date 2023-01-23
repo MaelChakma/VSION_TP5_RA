@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\bin\Debug\aruco3112.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\bin\Debug\fractal_print_marker.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

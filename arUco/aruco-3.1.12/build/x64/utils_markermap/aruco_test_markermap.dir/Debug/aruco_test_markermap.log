@@ -1,0 +1,53 @@
+﻿  Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/utils_markermap/CMakeLists.txt
+  aruco_test_markermap.cpp
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers\fractalmarker.h(38,1): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers/fractallabeler.h(41,76): warning C4244: 'return' : conversion de 'double' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(168,41): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(169,42): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(224,27): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(240,27): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(295,19): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(296,26): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(296,49): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(315,15): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(315,26): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(315,37): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sgl.h(315,46): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(50,23): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(55,22): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(82,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(131,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(208,34): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(208,32): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(284,47): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(284,32): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(322,43): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(322,28): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(384,19): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(429,55): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\sglviewer.h(430,55): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\aruco_test_markermap.cpp(139,35): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_markermap\aruco_test_markermap.cpp(203,36): warning C4244: '=' : conversion de '_Tp' en 'float', perte possible de données
+          with
+          [
+              _Tp=double
+          ]
+  pcdwriter.cpp
+  Génération de code en cours...
+  aruco_test_markermap.vcxproj -> E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\bin\Debug\aruco_test_markermap.exe

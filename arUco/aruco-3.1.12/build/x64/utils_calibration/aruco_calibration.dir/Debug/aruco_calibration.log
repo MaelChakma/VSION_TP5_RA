@@ -1,0 +1,12 @@
+﻿  Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/utils_calibration/CMakeLists.txt
+  aruco_calibration.cpp
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers\fractalmarker.h(38,1): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers/fractallabeler.h(41,76): warning C4244: 'return' : conversion de 'double' en 'int', perte possible de données
+  calibrator.cpp
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_calibration\calibrator.cpp(64,63): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_calibration\calibrator.cpp(97,53): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_calibration\calibrator.cpp(107,39): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_calibration\calibrator.cpp(112,40): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_calibration\calibrator.cpp(232,14): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+  Génération de code en cours...
+  aruco_calibration.vcxproj -> E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\bin\Debug\aruco_calibration.exe

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/utils/CMakeLists.txt
+  aruco_simple.cpp
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers\fractalmarker.h(38,1): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers/fractallabeler.h(41,76): warning C4244: 'return' : conversion de 'double' en 'int', perte possible de données
+  aruco_simple.vcxproj -> E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\bin\Debug\aruco_simple.exe

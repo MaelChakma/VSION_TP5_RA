@@ -1,0 +1,10 @@
+^E:\COURS\VSION\TP5\ARUCO\ARUCO-3.1.12\BUILD\X64\CMAKEFILES\4C8E6DCC9A4216F39C283ABDAFA117A2\GENERATE.STAMP.RULE
+setlocal
+C:\Appli\CMake\bin\cmake.exe -SE:/cours/VSION/TP5/arUco/aruco-3.1.12 -BE:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64/aruco.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

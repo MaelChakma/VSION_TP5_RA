@@ -1,0 +1,64 @@
+﻿  Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/utils/CMakeLists.txt
+  aruco_test.cpp
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers\fractalmarker.h(38,1): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers/fractallabeler.h(41,76): warning C4244: 'return' : conversion de 'double' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(86,37): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(86,34): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(99,73): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(106,101): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(128,73): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(129,79): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(136,53): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(137,63): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(138,58): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(139,54): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(140,92): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(145,66): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(146,53): warning C4244: 'argument' : conversion de 'float' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(217,28): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(267,20): warning C4244: 'initialisation' : conversion de 'const _Ty' en 'float', perte possible de données
+          with
+          [
+              _Ty=int
+          ]
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(269,58): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(269,31): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(278,72): warning C4244: '=' : conversion de 'uint64_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils\aruco_test.cpp(279,73): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+  aruco_test.vcxproj -> E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\bin\Debug\aruco_test.exe

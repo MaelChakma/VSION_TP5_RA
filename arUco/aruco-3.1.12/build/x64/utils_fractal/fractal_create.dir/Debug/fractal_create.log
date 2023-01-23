@@ -1,0 +1,6 @@
+﻿  Building Custom Rule E:/cours/VSION/TP5/arUco/aruco-3.1.12/utils_fractal/CMakeLists.txt
+  fractal_create.cpp
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\src\fractallabelers\fractalmarker.h(38,1): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_fractal\fractal_create.cpp(28,17): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\cours\VSION\TP5\arUco\aruco-3.1.12\utils_fractal\fractal_create.cpp(76,48): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  fractal_create.vcxproj -> E:\cours\VSION\TP5\arUco\aruco-3.1.12\build\x64\bin\Debug\fractal_create.exe

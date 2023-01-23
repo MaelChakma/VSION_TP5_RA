@@ -1,0 +1,51 @@
+﻿  -- Install configuration: "Debug"
+  -- Installing: C:/Dev/Aruco3112/lib/pkgconfig/aruco-uninstalled.pc
+  -- Installing: C:/Dev/Aruco3112/lib/pkgconfig/aruco.pc
+  -- Installing: C:/Dev/Aruco3112/share/aruco/arucoConfig.cmake
+  -- Installing: C:/Dev/Aruco3112/lib/aruco3112.lib
+  -- Installing: C:/Dev/Aruco3112/bin/aruco3112.dll
+  -- Installing: C:/Dev/Aruco3112/include/aruco/aruco_cvversioning.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/cameraparameters.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/dictionary_based.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/ippe.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/markerdetector_impl.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/markermap.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/timers.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/aruco_export.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/cvdrawingutils.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/dictionary.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/levmarq.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/marker.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/picoflann.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/aruco.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/debug.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/markerdetector.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/markerlabeler.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/posetracker.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/fractaldetector.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/fractallabelers/fractalposetracker.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/fractallabelers/fractalmarkerset.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/fractallabelers/fractalmarker.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/fractallabelers/fractallabeler.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/dcf/dcfmarkermaptracker.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/dcf/dcfmarkertracker.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/dcf/dcf_utils.h
+  -- Installing: C:/Dev/Aruco3112/include/aruco/dcf/trackerimpl.h
+  CMake Error at utils_gl/cmake_install.cmake:37 (file):
+    file INSTALL cannot find
+    "E:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64/bin/Debug/aruco_test_gl.exe":
+    File exists.
+  Call Stack (most recent call first):
+    cmake_install.cmake:49 (include)
+  
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: La commande "setlocal
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: C:\Appli\CMake\bin\cmake.exe -DBUILD_TYPE=Debug -P cmake_install.cmake
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :cmEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :cmErrorLevel
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: exit /b %1
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :cmDone
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :VCEnd" s'est arrêtée avec le code 1.

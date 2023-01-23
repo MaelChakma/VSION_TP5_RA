@@ -1,0 +1,10 @@
+^E:\COURS\VSION\TP5\ARUCO\ARUCO-3.1.12\SRC\CMAKELISTS.TXT
+setlocal
+C:\Appli\CMake\bin\cmake.exe -SE:/cours/VSION/TP5/arUco/aruco-3.1.12 -BE:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64 --check-stamp-file E:/cours/VSION/TP5/arUco/aruco-3.1.12/build/x64/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
