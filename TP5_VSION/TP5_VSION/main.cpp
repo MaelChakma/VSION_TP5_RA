@@ -1,5 +1,6 @@
 // Aruco Include
-#include<aruco.h>
+#include<aruco\aruco.h>
+
 
 // IOpenCV Include
 #include<opencv2\core\core.hpp>
@@ -19,21 +20,30 @@ using namespace cv;
 // Main function
 void main() {
 	// Variable declaration
-	string imageAdress;
 	string windowName = "Augmented Reality";
 	char key = 'a';
 	Mat image;
+	VideoCapture cap;
 
-	// Asking image name
-	cout << "Adresse de l'image: ";
-	cin >> imageAdress;
-
-	// Reading image
-	image = imread(imageAdress);
+	// Opening camera
+	cap.open(0);
 
 	// Printing loop
 	while (key != ESC_KEY) {
+		// read next image
+		cap >> image;
+
+		// Marker detector creator
+		aruco::MarkerDetector myDetector;
+		//Marker list: will be filled by ArUco
+		
+		// detect markers and for each one, draw info and its boundaries in the image
+		for (auto m : myDetector.detect(image)) {
+			std::cout << m << std::endl;
+			m.draw(image);
+		}
+
 		imshow(windowName, image);
-		key = waitKey();
+		key = waitKey(1);
 	}
 }
